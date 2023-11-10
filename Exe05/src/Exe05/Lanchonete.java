@@ -12,6 +12,7 @@ public class Lanchonete {
 	
 		String produto;
 		int quantidade, codigo;
+		
 		float valor = (float) 2.0897667; 
 		
 		 System.out.println("Olá escolha seu lanche!");
@@ -32,7 +33,7 @@ public class Lanchonete {
 		quantidade = leia.nextInt();
 		
 		
-
+		System.out.println("Produto: " + codigo);
 		System.out.printf("Valor total: R$ %.2f", quantidade*valor);
 		
 		
