@@ -1,0 +1,42 @@
+package aula06;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Set {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> frutas = new HashSet<String>();
+		
+		frutas.add("Abacate");
+		frutas.add("Banana");
+		frutas.add("Abacate");
+		frutas.add("Morango");
+		frutas.add("Jaboticaba");
+		frutas.add("Kiwi");
+		//frutas.add(null);
+		
+		System.out.println(frutas);
+		
+		
+		for(var fruta: frutas)
+			System.out.println(fruta.hashCode());
+		
+		System.out.println(" A fruta morango existe?" + frutas.contains("Morango"));
+		
+		frutas.remove("Morango");
+		
+		System.out.println(frutas);
+		
+		
+		Iterator<String>ifrutas = frutas.iterator();
+		System.out.println(ifrutas.next());
+		
+		
+		
+		
+		
+	}
+
+}

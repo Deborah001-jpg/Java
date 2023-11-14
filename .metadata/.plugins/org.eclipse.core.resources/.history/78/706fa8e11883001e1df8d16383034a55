@@ -1,0 +1,30 @@
+package aula06;
+
+import java.util.ArrayList;
+
+public class Ativ2List {
+
+	public static void main(String[] args) {
+	
+	ArrayList <Integer> numero = new ArrayList <Integer>();
+	
+	numero.add(2);
+	numero.add(5);
+	numero.add(1);
+	numero.add(3);	
+	numero.add(4);	
+	numero.add(9);	
+	numero.add(7);	
+	numero.add(8);	
+	numero.add(10);
+	numero.add(6);
+	
+	
+	for (var numero: numero)
+		System.out.println(numero);
+	
+	
+	
+	}
+
+}

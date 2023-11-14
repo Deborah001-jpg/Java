@@ -1,0 +1,29 @@
+package aula06;
+
+import java.util.ArrayList;
+
+public class Lista {
+
+
+	public static void main(String[] args) {
+		
+		ArrayList<Double> notas = new ArrayList<Double>();
+		
+		
+		notas.add(7.0);
+		notas.add(4.0);
+		notas.add(6.0);
+		notas.add(7.0);
+		notas.add(9.0);
+		
+		for (var nota: notas)
+			System.out.println(nota);
+		
+		System.out.println(notas);
+		
+		System.out.println("posicao do elemento 7:" + notas.indexOf(7.0));
+	
+	}
+
+	
+}

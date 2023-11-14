@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;atividade02.Vetores02.main(...).scanner&apos; in &apos;atividade02.Vetores02.main(...)&apos;&#x0D;&#x0A;- Original project: &apos;Atividade02&apos;&#x0D;&#x0A;- Original element: &apos;atividade02.Vetores02.main(...).scanner&apos;" description="Inline local variable &apos;scanner&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;atividade02{Vetores02.java" selection="344 32" stamp="1699898763389" version="1.0"/>
+</session>
