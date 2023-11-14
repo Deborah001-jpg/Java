@@ -11,7 +11,7 @@ public class Lanchonete {
 		
 	
 		String produto;
-		int quantidade, codigo;
+		int quantidade, codigo=0;
 		
 		float valor = (float) 2.0897667; 
 		
