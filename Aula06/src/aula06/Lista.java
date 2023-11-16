@@ -6,12 +6,14 @@ import java.util.Scanner;
 public class Lista {
 
 	static Scanner leia = new Scanner(System.in);
-	private static Double numero;
+	 static Double numero;
 	
 	
 	public static void main(String[] args) {
 		
 		ArrayList<Double> notas = new ArrayList<Double>();
+		
+		
 		System.out.println("Digite uma nota: ");
 		numero = leia.nextDouble();
 		

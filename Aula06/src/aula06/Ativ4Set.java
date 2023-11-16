@@ -31,6 +31,16 @@ public class Ativ4Set {
 	        int numeroDigitado = leia.nextInt();
 		
 	        
+	     // Verificar se o número está presente no Set e exibir a mensagem
+	        
+	        
+	        if (numerosSet.contains(numeroDigitado)) {
+	            System.out.println("Número " + numeroDigitado + " Encontrado!");
+	        } else {
+	            System.out.println("O número " + numeroDigitado + " não foi encontrado!");
+	        }
+	        
+	        
 
 	}
 
